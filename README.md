@@ -59,3 +59,29 @@ useSelector
 
 useDispatch
 => use dispatch an action with react redux
+
+#logger middleware
+-> To log state information in console
+
+#Redux Dev Tools :-
+-> Add redux dev tools extension to chrome
+-> Add redux dev tools extension package to redux application
+npm install --save redux-devtools-extension
+
+#payload :-
+-> Send additional info to reducer
+-> Num of state change
+
+#Actions types :-
+
+- Synchronous Actions
+  -> As soon as an action was dispatched, the state was immediately updated.
+  -> If you dispatch BUY_CAKE action , the numOfCakes was right away decremented by 1.
+  -> Same with BUY_ICECREAM action as well
+
+- Asynchronous Actions :-
+  -> Asynchronous API calls to fetch data from an end point and use that data in your application
+
+#To make async api req use
+-> Axios by installig axios package = npm install axios
+-> redux-thunk by installing redux-thunk package = npm install redux-thunk
